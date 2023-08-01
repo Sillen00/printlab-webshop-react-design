@@ -1,14 +1,16 @@
+import "./Header.css";
+
 function Header() {
   return (
-    <header>
-      <img src="#" alt="Printlab Logo" />
-      <div>
-        <ul>
+    <header className="header">
+      <img className="logo" src="/assets/Printlab-Text-Logo.png" alt="Printlab Logo" />
+      <div className="nav-links">
+        <ul className="nav-links-ul hide-on-mobile">
           <li>HOME</li>
           <li>SHOP</li>
           <li>ABOUT</li>
         </ul>
-        <div>
+        <div className="hide-on-desktop">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
             <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
           </svg>

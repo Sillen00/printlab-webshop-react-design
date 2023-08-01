@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 3em;
+}
+
+.logo {
+  height: 18px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  gap: 2em;
+  margin-right: 2em;
+}
+
+@media (width >= 640px) {
+  .hide-on-desktop {
+    display: none;
+  }
+}
+
+@media (width <= 640px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
