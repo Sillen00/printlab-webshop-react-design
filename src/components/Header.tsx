@@ -6,9 +6,15 @@ function Header() {
       <img className="logo" src="/assets/Printlab-Text-Logo.png" alt="Printlab Logo" />
       <div className="nav-links">
         <ul className="nav-links-ul hide-on-mobile">
-          <li><a href="">HOME</a></li>
-          <li><a href="">SHOP</a></li>
-          <li><a href="">ABOUT</a></li>
+          <li>
+            <a href="">HOME</a>
+          </li>
+          <li>
+            <a href="">SHOP</a>
+          </li>
+          <li>
+            <a href="">ABOUT</a>
+          </li>
         </ul>
         <div className="hide-on-desktop">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
