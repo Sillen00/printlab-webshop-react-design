@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1em 3em;
+  background-color: blueviolet; /*REMOVE LATER------*/
 }
 
 .logo {
@@ -22,6 +23,10 @@
   list-style-type: none;
   gap: 2em;
   margin-right: 2em;
+}
+.nav-links-ul li a {
+    text-decoration: none;
+    color: black;
 }
 
 @media (width >= 640px) {
