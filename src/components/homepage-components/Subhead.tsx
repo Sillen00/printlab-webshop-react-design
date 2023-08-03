@@ -1,4 +1,4 @@
-import OrangeButton from "./OrangeButton";
+import OrangeButton from "../OrangeButton";
 import "./Subhead.css";
 
 function Subhead() {

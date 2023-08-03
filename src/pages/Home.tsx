@@ -1,9 +1,11 @@
-import Subhead from "../components/Subhead";
+import Subhead from "../components/homepage-components/Subhead";
+import Main from "../components/homepage-components/Main";
 
 function Home() {
   return (
     <>
       <Subhead />
+      <Main />
     </>
   );
 }
