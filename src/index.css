@@ -5,6 +5,15 @@
   font-family: "Calibri", sans-serif;
 }
 
+:root {
+  --primary-color: #ed693c;
+  --secondary-color: #e14915;
+  --bodytext-11: 11px;
+  --middleheading-18: 18px;
+  --mainheading-29: 29px;
+  --mainheading-465: 46.5px;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
