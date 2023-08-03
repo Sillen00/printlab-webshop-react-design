@@ -15,7 +15,19 @@
 }
 
 .subhead-text-div {
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 2em;
+  padding: 0 5em;
+}
+
+
+.subhead-text-div h2 {
+  font-size: var(--mainheading-465);
+}
+
+.subhead-text-div p {
+  font-size: var(--middleheading-18);
 }
