@@ -2,10 +2,10 @@ import "./WhyShopWithUs.css";
 
 function WhyShopWithUs() {
   return (
-    <section>
-      <h2 className="WSWU-h2">WhyShopWithUs</h2>
+    <section className="WSWU-section">
+      <h2 className="WSWU-h2">Why Shop With Us</h2>
       <div className="WSWU-div">
-        <div>
+        <div className="WSWU-card">
           <img
             className="WSWU-images"
             src="./assets/benefit1.png"
@@ -14,7 +14,7 @@ function WhyShopWithUs() {
           <h6>Unparalleled Customization</h6>
           <p>Create a one-of-a-kind item!</p>
         </div>
-        <div>
+        <div className="WSWU-card">
           <img
             className="WSWU-images"
             src="./assets/benefit2.png"
@@ -26,7 +26,7 @@ function WhyShopWithUs() {
             creations.
           </p>
         </div>
-        <div>
+        <div className="WSWU-card">
           <img
             className="WSWU-images"
             src="./assets/benefit3.png"
@@ -38,7 +38,7 @@ function WhyShopWithUs() {
             and reliably.
           </p>
         </div>
-        <div>
+        <div className="WSWU-card">
           <img
             className="WSWU-images"
             src="./assets/benefit4.png"
