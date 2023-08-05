@@ -22,11 +22,39 @@
   padding: 0 5em;
 }
 
-
 .subhead-text-div h2 {
   font-size: var(--mainheading-465);
 }
 
 .subhead-text-div p {
   font-size: var(--middleheading-18);
+}
+
+@media (width <= 1024px) {
+  .subhead-div {
+    flex-direction: column;
+  }
+
+  .subhead-text-div {
+    width: 100%;
+    padding: 0 2em;
+  }
+
+  .subhead-image-div {
+    margin-bottom: 6rem;
+    width: 100%;
+    height: 60vh;
+  }
+
+  .subhead-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (width <= 640px) {
+  .subhead-text-div h2 {
+    font-size: var(--mainheading-29);
+  }
 }
