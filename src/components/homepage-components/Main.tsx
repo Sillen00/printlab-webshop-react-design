@@ -1,10 +1,12 @@
-import WhyShopWithUs from "./WhyShopWithUs";
 import "./Main.css";
+import Products from "./Products";
+import WhyShopWithUs from "./WhyShopWithUs";
 
 function Main() {
   return (
     <>
       <WhyShopWithUs />
+      <Products />
     </>
   );
 }
