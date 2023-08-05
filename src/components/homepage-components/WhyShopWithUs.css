@@ -50,6 +50,10 @@
 }
 
 @media (width <= 640px) {
+  .WSWU-h2 {
+    font-size: var(--mainheading-29);
+  }
+  
   .WSWU-card {
     flex: 0 0 calc(100% - 20px);
   }
