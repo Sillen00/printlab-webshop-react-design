@@ -47,7 +47,7 @@ function Footer() {
         </div>
       </section>
       <section className="bottom-footer-section">
-        <p>&copy; 2023 All Rights Reserved.</p>
+        <p className="copyright-text" >&copy; 2023 All Rights Reserved.</p>
         <div>
           <p>Help & Info</p>
           <p>Terms & Privacy</p>
