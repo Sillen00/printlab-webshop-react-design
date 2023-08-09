@@ -28,6 +28,12 @@
   color: black;
 }
 
+.centersvg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (width >= 640px) {
   .hide-on-desktop {
     display: none;
@@ -38,4 +44,10 @@
   .hide-on-mobile {
     display: none;
   }
+
+  .hide-on-desktop {
+    margin-right: 1rem;
+    margin-top: 0.15rem;
+  }
+
 }
