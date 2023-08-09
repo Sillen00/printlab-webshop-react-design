@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
@@ -7,10 +8,10 @@ function Header() {
       <div className="nav-links">
         <ul className="nav-links-ul hide-on-mobile">
           <li>
-            <a href="">HOME</a>
+            <NavLink to="/">HOME</NavLink>
           </li>
           <li>
-            <a href="">SHOP</a>
+            <NavLink to="shop">SHOP</NavLink>
           </li>
           <li>
             <a href="">ABOUT</a>

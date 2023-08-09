@@ -1,7 +1,10 @@
+import Products from "../components/homepage-components/Products";
+
 function Shop() {
   return (
     <>
-      <div>Shop</div>
+      <h2>Product</h2>
+      <Products />
     </>
   );
 }
