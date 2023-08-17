@@ -1,14 +1,18 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
+  const [showNavLinks, setShowNavLinks] = useState(false);
+
   return (
     <header className="header">
-      <img className="logo" src="/assets/Printlab-Text-Logo.png" alt="Printlab Logo" />
+      <NavLink to="./">
+        <img className="logo" src="/assets/Printlab-Text-Logo.png" alt="Printlab Logo" />
+      </NavLink>
       <div className="nav-links">
-
         {/* DESKTOP LINKS */}
-        <ul className="nav-links-ul hide-on-mobile">
+        <ul className={`nav-links-ul hide-on-mobile ${showNavLinks ? "show" : ""}`}>
           <li>
             <NavLink to="/">HOME</NavLink>
           </li>
@@ -21,7 +25,7 @@ function Header() {
         </ul>
 
         {/* MOBILE HAMBURGER MENU */}
-        <div className="hide-on-desktop centersvg">
+        <div className="hide-on-desktop centersvg" onClick={() => setShowNavLinks(!showNavLinks)}>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
             <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
           </svg>

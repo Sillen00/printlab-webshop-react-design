@@ -24,10 +24,19 @@
   gap: 2em;
   margin-right: 2em;
 }
+.nav-links-ul.show {
+  display: block;
+  position: fixed;
+  top: 62px;
+  background-color: lightgray;
+  right: 0;
+  padding: 20px;
+
+}
 .nav-links-ul li a {
   text-decoration: none;
   color: black;
-  font-size: var(--middleheading-18);
+  font-size: var(--bodytext-18);
 }
 .nav-links-ul li a:hover {
   color: var(--secondary-color);
