@@ -24,6 +24,7 @@
 
 .subhead-text-div h2 {
   font-size: var(--mainheading-465);
+  text-shadow: 10px 10px 5px var(--secondary-color);
 }
 
 .subhead-text-div p {

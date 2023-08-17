@@ -36,6 +36,10 @@
   font-size: var(--middleheading-18);
   text-decoration: underline;
 }
+.product-card p:hover {
+  color: var(--secondary-color);
+  cursor: pointer;
+}
 
 @media (width >= 640px) {
   .product-card {
