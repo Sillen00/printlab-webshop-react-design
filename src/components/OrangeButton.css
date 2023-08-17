@@ -5,6 +5,7 @@
     width: 9em;
     padding: 0.8em 0; 
     font-size: var(--middleheading-18);
+    cursor: pointer;
 }
 
 .orange-btn:hover {

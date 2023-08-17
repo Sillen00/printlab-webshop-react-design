@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { NavLink } from "react-router-dom";
 import "./OrangeButton.css";
 
 interface OrangeButtonProps {
@@ -8,7 +9,9 @@ interface OrangeButtonProps {
 function OrangeButton({ children }: OrangeButtonProps) {
   return (
     <>
-      <button className="orange-btn">{children}</button>
+      <NavLink to="/shop">
+        <button className="orange-btn">{children}</button>
+      </NavLink>
     </>
   );
 }
