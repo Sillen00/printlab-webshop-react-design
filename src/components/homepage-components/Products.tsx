@@ -7,7 +7,7 @@ function Products() {
       <div className="product-card">
           <h2>
             Our Top <br />
-            Buyed Products:
+            Bought Products:
           </h2>
           <p>
             Create a one-of-a-kind <br /> product!
