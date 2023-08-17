@@ -41,6 +41,10 @@
   display: flex;
   gap: 1rem;
 }
+.footer-socials svg:hover {
+  fill: var(--secondary-color);
+  cursor: pointer;
+}
 
 @media (width <= 640px) {
   .footer-container h2 {
