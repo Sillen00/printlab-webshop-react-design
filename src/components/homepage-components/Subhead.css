@@ -28,7 +28,7 @@
 }
 
 .subhead-text-div p {
-  font-size: var(--middleheading-18);
+  font-size: var(--bodytext-18);
 }
 
 .subhead-button-logo-div {
@@ -68,6 +68,6 @@
 
 @media (width <= 640px) {
   .subhead-text-div h2 {
-    font-size: var(--mainheading-29);
+    font-size: var(--middleheading-29);
   }
 }

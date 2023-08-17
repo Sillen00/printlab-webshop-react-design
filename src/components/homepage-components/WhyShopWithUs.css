@@ -30,7 +30,7 @@
 }
 
 .WSWU-card h6 {
-  font-size: var(--middleheading-18);
+  font-size: var(--bodytext-18);
   padding: 1rem 0 1rem;
 }
 
@@ -51,7 +51,7 @@
 
 @media (width <= 640px) {
   .WSWU-h2 {
-    font-size: var(--mainheading-29);
+    font-size: var(--middleheading-29);
   }
 
   .WSWU-card {

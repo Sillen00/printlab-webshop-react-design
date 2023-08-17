@@ -14,12 +14,16 @@
 
 .shop-heading {
   text-align: center;
-  font-size: var(--mainheading-465);
+  font-size: var(--mainheading-75);
   padding: 7rem 0;
 }
 
 @media (width <= 640px){
   .shop-div {
     gap: 20px;
+  }
+
+  .shop-heading {
+    font-size: var(--mainheading-465);
   }
 }
