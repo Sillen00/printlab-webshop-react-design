@@ -4,7 +4,12 @@ import "./Shop.css";
 function Shop() {
   return (
     <>
-      <h2 className="shop-heading">Products</h2>
+      <div className="shop-div">
+        <img src="./assets/logo.png" alt="Printlab logo" />
+        <h2 className="shop-heading">Products</h2>
+        <img src="./assets/logo.png" alt="Printlab logo" />
+      </div>
+
       <Products />
       <Products />
     </>

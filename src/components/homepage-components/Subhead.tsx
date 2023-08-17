@@ -15,7 +15,10 @@ function Subhead() {
         <h2>Unleash Your Imagination With 3D Printing! </h2>
         <p>Transform your ideas into reality, Welcome to PrintLab!</p>
 
-        <OrangeButton>Shop Now</OrangeButton>
+        <div className="subhead-button-logo-div">
+          <OrangeButton>Shop Now</OrangeButton>
+          <img src="./assets/logo.png" alt="Printlab logo" />
+        </div>
       </div>
     </div>
   );

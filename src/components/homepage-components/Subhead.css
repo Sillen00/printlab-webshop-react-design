@@ -31,6 +31,18 @@
   font-size: var(--middleheading-18);
 }
 
+.subhead-button-logo-div {
+  display: flex;
+  gap: 50px;
+}
+.subhead-button-logo-div img {
+  width: 50px;
+  transition: 3s;
+}
+.subhead-button-logo-div img:hover {
+  transform: rotateZ(900deg)
+}
+
 @media (width <= 1024px) {
   .subhead-div {
     flex-direction: column;

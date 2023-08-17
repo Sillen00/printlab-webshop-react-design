@@ -1,11 +1,25 @@
+.shop-div {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+.shop-div img {
+  width: 50px;
+  transition: 3s;
+}
+.shop-div img:hover {
+  transform: rotateZ(900deg)
+}
+
 .shop-heading {
   text-align: center;
   font-size: var(--mainheading-465);
   padding: 7rem 0;
 }
-.shop-heading:hover {
-  text-shadow: 300px 0px 5px red;
-}
-.shop-heading::after:hover {
-  text-shadow: 0px 300px 5px red;
+
+@media (width <= 640px){
+  .shop-div {
+    gap: 20px;
+  }
 }
