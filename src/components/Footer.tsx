@@ -8,10 +8,6 @@ function Footer() {
     setPlaceholder(" ");
   };
 
-  // const inputStyle = {
-  //   letterSpacing: "0.4em", // Adjust this value to increase/decrease spacing
-  // };
-
   return (
     <>
       <section className="footer-section">

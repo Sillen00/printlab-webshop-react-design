@@ -9,11 +9,14 @@ export default defineConfig({
     outDir: "dist",
   },
   css: {
-    // Include or import CSS files globally
     preprocessorOptions: {
       scss: {
-        additionalData: `@import "@/styles/global.scss";`, // Replace with your global styles path
+        additionalData: `$injectedColor: orange;`,
       },
+      less: {
+        math: "parens-division",
+      },
+      styl: {},
     },
   },
 });
