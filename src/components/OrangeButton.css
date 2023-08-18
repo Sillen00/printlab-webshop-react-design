@@ -1,13 +1,13 @@
 .orange-btn {
-    background-color: var(--primary-color);
-    border-radius: 9999em;
-    border: none;
-    width: 9em;
-    padding: 0.8em 0; 
-    font-size: var(--bodytext-18);
-    cursor: pointer;
+  background-color: var(--primary-color);
+  border-radius: 9999em;
+  border: none;
+  width: 9em;
+  padding: 0.8em 0;
+  font-size: var(--bodytext-18);
+  cursor: pointer;
 }
 
 .orange-btn:hover {
-    background-color: var(--secondary-color)
+  background-color: var(--secondary-color);
 }
