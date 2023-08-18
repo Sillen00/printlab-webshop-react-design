@@ -6,11 +6,5 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: "dist",
-    // ...other build configuration
-    rollupOptions: {
-      output: {
-        entryFileNames: "main-[hash].js", // Use [name]-[hash].js to generate unique filenames
-      },
-    },
   },
 });
