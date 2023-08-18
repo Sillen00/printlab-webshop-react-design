@@ -11,7 +11,6 @@ function Shop() {
       </div>
 
       <Products />
-      <Products />
     </>
   );
 }
