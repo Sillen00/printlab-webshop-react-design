@@ -1,4 +1,3 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import {
   Route,
@@ -22,9 +21,9 @@ const router = createBrowserRouter(
 
 export function Root() {
   return (
-    <React.StrictMode>
-      <RouterProvider router={router} />
-    </React.StrictMode>
+    // <React.StrictMode>
+    <RouterProvider router={router} />
+    // </React.StrictMode>
   );
 }
 
