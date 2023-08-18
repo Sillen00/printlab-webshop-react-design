@@ -1,7 +1,7 @@
 import Products from "./Products";
 import WhyShopWithUs from "./WhyShopWithUs";
 
-function Main() {
+function Mainpage() {
   return (
     <>
       <WhyShopWithUs />
@@ -10,4 +10,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Mainpage;

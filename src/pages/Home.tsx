@@ -1,11 +1,11 @@
-import Main from "../components/homepage-components/Main";
+import Mainpage from "../components/homepage-components/Mainpage";
 import Subhead from "../components/homepage-components/Subhead";
 
 function Home() {
   return (
     <>
       <Subhead />
-      <Main />
+      <Mainpage />
     </>
   );
 }
