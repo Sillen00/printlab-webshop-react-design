@@ -10,13 +10,7 @@ export default defineConfig({
   },
   css: {
     preprocessorOptions: {
-      scss: {
-        additionalData: `$injectedColor: orange;`,
-      },
-      less: {
-        math: "parens-division",
-      },
-      styl: {},
+      
       esbuild: {
         jsxInject: `import React from 'react'`,
       },
