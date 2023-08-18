@@ -6,10 +6,10 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import App from "./App";
-import "./index.css";
-import Home from "./pages/Home";
-import Shop from "./pages/Shop";
+import "./src/index.css";
+import App from "./src/App";
+import Home from "./src/pages/Home";
+import Shop from "./src/pages/Shop";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
