@@ -9,16 +9,17 @@
   transition: 3s;
 }
 .shop-div img:hover {
-  transform: rotateZ(900deg)
+  transform: rotateZ(900deg);
 }
 
 .shop-heading {
   text-align: center;
+  font-family: "SF TransRobotics", sans-serif;
   font-size: var(--mainheading-75);
   padding: 7rem 0;
 }
 
-@media (width <= 640px){
+@media (width <= 640px) {
   .shop-div {
     gap: 20px;
   }

@@ -24,6 +24,7 @@
 
 .subhead-text-div h2 {
   font-size: var(--mainheading-465);
+  font-family: "SF TransRobotics", sans-serif;
   text-shadow: 10px 10px 5px var(--secondary-color);
 }
 
@@ -40,7 +41,7 @@
   transition: 3s;
 }
 .subhead-button-logo-div img:hover {
-  transform: rotateZ(900deg)
+  transform: rotateZ(900deg);
 }
 
 @media (width <= 1024px) {
