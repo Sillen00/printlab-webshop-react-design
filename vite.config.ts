@@ -9,7 +9,7 @@ export default defineConfig({
     // ...other build configuration
     rollupOptions: {
       output: {
-        entryFileNames: "test-hash.js", // Use [name]-[hash].js to generate unique filenames
+        entryFileNames: "main-[hash].js", // Use [name]-[hash].js to generate unique filenames
       },
     },
   },
