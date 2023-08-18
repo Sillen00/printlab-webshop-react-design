@@ -17,6 +17,9 @@ export default defineConfig({
         math: "parens-division",
       },
       styl: {},
+      esbuild: {
+        jsxInject: `import React from 'react'`,
+      },
     },
   },
 });
