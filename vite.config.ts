@@ -7,5 +7,10 @@ export default defineConfig({
   build: {
     outDir: "dist",
     // ...other build configuration
+    rollupOptions: {
+      output: {
+        entryFileNames: "test-hash.js", // Use [name]-[hash].js to generate unique filenames
+      },
+    },
   },
-})
+});
