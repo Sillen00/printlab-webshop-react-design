@@ -1,5 +1,7 @@
 # PrintLab 
-![screencapture-localhost-5173-2024-04-29-14_10_44](https://github.com/Sillen00/printlab-webshop-react-design/assets/114336470/0cf33daf-6ce9-4344-93c9-7f3a84bd5f79)
+![Simon Bengtsson G Profil-01](https://github.com/Sillen00/printlab-webshop-react-design/assets/114336470/46437d69-c88a-40aa-b65d-5c89d742a3dc)
+![Simon Bengtsson G Profil-02](https://github.com/Sillen00/printlab-webshop-react-design/assets/114336470/5d0c9025-742a-46f5-a053-a08449b20862)
+
 
 
 In this school exersice i have been conceptualizing an imaginary brand/company from scratch. This involved devising a creative brand name, designing a logo that captured the essence of the brand, and selecting a complementary color palette that resonated with the brand's identity. Additionally, I determined the ideal font to be used throughout the brand's website to ensure consistent and visually appealing communication.
